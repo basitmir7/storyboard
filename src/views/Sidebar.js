@@ -8,7 +8,7 @@ const Sidebar = ({ data }) => {
   };
   return (
     <>
-      <div className={`sidebar ${isOpen ? "open" : ""}`}>
+      <aside className={`sidebar ${isOpen ? "open" : ""}`}>
         <div className="sidebar-heading">
           <h5>journey board</h5>
           <FiMenu onClick={OpenSidebar} style={{ cursor: "pointer" }} />
@@ -28,7 +28,7 @@ const Sidebar = ({ data }) => {
             })}
           </ul>
         </div>
-      </div>
+      </aside>
     </>
   );
 };

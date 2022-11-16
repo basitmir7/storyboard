@@ -35,7 +35,6 @@ const Navbar = () => {
               </div>
             );
           })}
-
           <BsThreeDotsVertical />
         </div>
       </nav>
